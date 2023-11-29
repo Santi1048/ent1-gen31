@@ -1,0 +1,43 @@
+.app {
+    background-image: url(../public/img/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__title {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.app__card {
+    background-color: lightgray;
+    padding: 1.5em 2em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 300px;
+}
+
+.app__phrase {
+    font-weight: 300;
+}
+
+.app__btn {
+    display: block;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    border-radius: 2em ;
+    transition: font-size 100ms ease;
+}
+
+.app__btn:hover {
+    font-size: 1.1rem; 
+}
